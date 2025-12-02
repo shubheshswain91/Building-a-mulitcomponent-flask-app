@@ -3,18 +3,18 @@ files:
   - name: gateway/application.py
     visible: true
     placeholders:
-      - offset: 1161
-        length: 39
+      - offset: 1158
+        length: 70
         placeholder_text: "# TODO: make the post request to invsys"
         initial_state:
           length: 39
           offset: 1161
         initialized_from_dependency: false
         encrypted_possible_answer: U0Yc7xHY5Cgn6FSWlq6UAHmAj7msiR8xeAymtlPb7lp0nD7tzvz3kI4ID8q82Y1X1jw2b4QPVRmRerIjkK3eHEa0RBMZ2dDFcqA5eaxm0Rc=
-        selected: false
-        status: Unchecked
-      - offset: 1259
-        length: 6
+        selected: true
+        status: Solved
+      - offset: 1287
+        length: 136
         placeholder_text: "# TODO"
         initial_state:
           length: 6
@@ -22,7 +22,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: bOxrT7jh+aaaVjxpO5rq8OkleSX35Q6J8SH9zDL1CUWtUCLmChN11XS86mn76LHTf9DvpaE5QhmhQPLf+O/DZg==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -66,5 +66,8 @@ files:
   - name: buildConfigurations/Post_Device_Build.run.xml
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 02 Dec 2025 18:43:59 UTC"
 record: -1

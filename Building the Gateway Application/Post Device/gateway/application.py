@@ -36,10 +36,15 @@ def delete_device(item_id):
 def post_device():
     # Get the payload from our incoming request
     payload = request.get_json(force=True)
-    # TODO: make the post request to invsys
+
+    response = requests.post('http://invsys:5000/items', json=payload)
 
     # Forward the response back to the client
-    return # TODO
+    return Response(
+        response.content,
+        status=response.status_code,
+        content_type=response.headers.get('Content-Type')
+    )
 
 
 @app.route('/items/<string:item_id>', methods=['PUT'])
