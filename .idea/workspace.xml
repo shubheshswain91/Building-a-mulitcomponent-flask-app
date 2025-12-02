@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de66f1dd-21da-4431-940a-bf365ee36e4a" name="Changes" comment="CRUD operation on DB - put device">
+    <list default="true" id="de66f1dd-21da-4431-940a-bf365ee36e4a" name="Changes" comment="CRUD operation on DB - delete device">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/dal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/dal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/tests/api_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/tests/api_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/tests/test_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/tests/test_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deploy API on Docker/Docker Intro/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Deploy API on Docker/Docker Intro/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deploy API on Docker/Dockerfile/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Deploy API on Docker/Dockerfile/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deploy API on Docker/Dockerfile/runConfigurations/Deploy_on_Docker_Dockerfile_Test.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Deploy API on Docker/Dockerfile/runConfigurations/Deploy_on_Docker_Dockerfile_Test.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deploy API on Docker/Dockerfile/tests/test_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deploy API on Docker/Dockerfile/tests/test_task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,9 +256,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.Deploy_on_Docker_Dockerfile_Build.executor": "Run",
     "Edu.LearningObjectsStorageType": "SQLite",
     "Edu.Yaml.Migrate": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Deploy_on_Docker_Dockerfile_Test.executor": "Run",
     "Python tests.Unittests in test_task.py.executor": "Run",
     "Python.api (1).executor": "Run",
     "Python.api.executor": "Run",
@@ -268,6 +268,7 @@
     "Python.main.executor": "Run",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "Docker",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -441,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764698048551</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="CRUD operation on DB - delete device">
+      <option name="closed" value="true" />
+      <created>1764698241546</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764698241546</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -452,6 +461,7 @@
     <MESSAGE value="CRUD operation on DB - POST" />
     <MESSAGE value="CRUD operation on DB - get device" />
     <MESSAGE value="CRUD operation on DB - put device" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD operation on DB - put device" />
+    <MESSAGE value="CRUD operation on DB - delete device" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD operation on DB - delete device" />
   </component>
 </project>
