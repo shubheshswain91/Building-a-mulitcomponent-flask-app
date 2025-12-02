@@ -24,6 +24,9 @@ devices = {"001": {
 with shelve.open('storage') as db:
     # for i, j in enumerate(devices):
     # Populate the database db with data
+    for device_id, device in devices.items():
+        db[device_id] = device
+
 
 if __name__ == '__main__':
     with shelve.open('storage') as db:
