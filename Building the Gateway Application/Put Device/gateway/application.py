@@ -44,7 +44,18 @@ def post_device():
 
 @app.route('/items/<string:item_id>', methods=['PUT'])
 def put_device(item_id):
-    return 'Hello from PUT'
+    # Get the payload from the incoming request
+    payload = request.get_json(force=True)
+
+    # Forward the PUT request to the relevant endpoint in invsys
+    response = requests.put(f'http://invsys:5000/items/{item_id}', json=payload)
+
+    # Forward the response back to the client
+    return Response(
+        response.content,
+        status=response.status_code,
+        content_type=response.headers.get('Content-Type')
+    )
 
 
 if __name__ == "__main__":
