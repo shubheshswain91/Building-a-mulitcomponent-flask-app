@@ -39,18 +39,25 @@ def get_device(identifier):
 # This function should update an item in the database, access the item by its id.
 # Return None if the identifier is not found.
 def put_device(identifier, args):
-    with pull_db() as shelf:
-        # TODO: return None if the id is not found in the database
-        device = shelf[identifier]
+    shelf = pull_db()  # Do NOT use 'with' here
 
-        # Loop through all the passed arguments and their values (it's like a dictionary).
-        # For each argument value, check if it is not empty (None).
-        # If not, update the corresponding argument value of the
-        # corresponding device with the value provided in the request.
-        # TODO
-        # Re-assign the new value of device to the identifier in shelve to save changes.
-        shelf[identifier] = device
-        return shelf[identifier]
+    # Check if the device exists
+    if identifier not in shelf:
+        return None
+
+    # Get the existing device
+    device = shelf[identifier]
+
+    # Update fields with values from args if they are not None
+    for key, value in args.items():
+        if value is not None:
+            device[key] = value
+
+    # Save updated device back to shelve
+    shelf[identifier] = device
+
+    return device
+
 
 
 # A Dict of Dicts to define initial devices

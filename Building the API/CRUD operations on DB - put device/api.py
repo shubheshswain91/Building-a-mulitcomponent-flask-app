@@ -39,10 +39,11 @@ def device(identifier):
             return jsonify(err.messages), 400
 
         # TODO: update the code to use dal. Return the same messages.
-        if identifier not in devices:
+        updated_device = dal.put_device(identifier, args)
+        if updated_device is None:
             return jsonify({'message': 'Device not found'}), 404
 
-        devices[identifier].update(args)
+            # Return the updated device
         return jsonify({"updated device": identifier}), 200
 
 
