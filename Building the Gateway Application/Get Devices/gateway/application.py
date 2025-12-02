@@ -14,7 +14,8 @@ def index():
 def get_devices(item_id=None):
     # Forward the request to the relevant endpoint in invsys
     if item_id:
-        # TODO: complete the function
+
+        response = requests.get(f'http://invsys:5000/items/{item_id}')
     else:
         response = requests.get('http://invsys:5000/items')
 

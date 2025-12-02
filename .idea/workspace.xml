@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de66f1dd-21da-4431-940a-bf365ee36e4a" name="Changes" comment="Dockerfile">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Define routes/gateway/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Define routes/gateway/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Define routes/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Define routes/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Define routes/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Define routes/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Define routes/tests/test_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Define routes/tests/test_task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Introduction/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Introduction/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deploy API on Docker/API Testing/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Deploy API on Docker/API Testing/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deploy API on Docker/Docker run configuration setup/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Deploy API on Docker/Docker run configuration setup/task-info.yaml" afterDir="false" />
+    <list default="true" id="de66f1dd-21da-4431-940a-bf365ee36e4a" name="Changes" comment="Define routes">
+      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Delete Device/gateway/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Delete Device/gateway/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Delete Device/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Delete Device/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Get Devices/gateway/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Get Devices/gateway/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Get Devices/runConfigurations/Get_Devices_Test.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Get Devices/runConfigurations/Get_Devices_Test.run.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Get Devices/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Get Devices/task-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,10 +257,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Docker.Deploy_on_Docker_Dockerfile_Build.executor": "Run",
+    "Docker.Get_Devices_Build.executor": "Run",
     "Edu.LearningObjectsStorageType": "SQLite",
     "Edu.Yaml.Migrate": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Deploy_on_Docker_Dockerfile_Test.executor": "Run",
+    "Python tests.Get_devices_Test.executor": "Run",
     "Python tests.Unittests in test_task.py.executor": "Run",
     "Python.api (1).executor": "Run",
     "Python.api (2).executor": "Run",
@@ -517,7 +516,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764699011033</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Deine routes">
+      <option name="closed" value="true" />
+      <created>1764700682222</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764700682222</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Define routes">
+      <option name="closed" value="true" />
+      <created>1764700705377</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764700705377</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -530,6 +545,8 @@
     <MESSAGE value="CRUD operation on DB - put device" />
     <MESSAGE value="CRUD operation on DB - delete device" />
     <MESSAGE value="Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dockerfile" />
+    <MESSAGE value="Deine routes" />
+    <MESSAGE value="Define routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Define routes" />
   </component>
 </project>

@@ -4,25 +4,25 @@ files:
     visible: true
     placeholders:
       - offset: 844
-        length: 6
+        length: 54
         placeholder_text: "# TODO"
         initial_state:
           length: 6
           offset: 844
         initialized_from_dependency: false
         encrypted_possible_answer: P32C6VWkevI8wN+D12RpIEPR7W98XbHoUdyKlMJ9I4jQ9HGKQtujedbYk8+u43qCW43ljaLMO+myyw7Awwpacw==
-        selected: false
-        status: Unchecked
-      - offset: 909
-        length: 6
+        selected: true
+        status: Solved
+      - offset: 957
+        length: 136
         placeholder_text: "# TODO"
         initial_state:
           length: 6
           offset: 909
         initialized_from_dependency: false
         encrypted_possible_answer: bOxrT7jh+aaaVjxpO5rq8OkleSX35Q6J8SH9zDL1CUWtUCLmChN11XS86mn76LHTf9DvpaE5QhmhQPLf+O/DZg==
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -66,5 +66,8 @@ files:
   - name: buildConfigurations/Delete_Device_Build.run.xml
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 02 Dec 2025 18:42:52 UTC"
 record: -1

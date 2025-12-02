@@ -26,10 +26,14 @@ def get_devices(item_id=None):
 @app.route('/items/<string:item_id>', methods=['DELETE'])
 def delete_device(item_id):
     # Forward the delete request to the relevant endpoint in invsys
-    response = # TODO
+    response = requests.delete(f'http://invsys:5000/items/{item_id}')
 
     # Forward the response back to the client
-    return # TODO
+    return Response(
+        response.content,
+        status=response.status_code,
+        content_type=response.headers.get('Content-Type')
+    )
 
 
 @app.route('/items', methods=['POST'])
