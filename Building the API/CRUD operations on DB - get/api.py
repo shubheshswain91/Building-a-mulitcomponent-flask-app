@@ -1,7 +1,8 @@
 from flask import Flask, request, jsonify
 from marshmallow import Schema, fields, ValidationError, validates_schema
 # TODO: import dal
-
+from dal import get as dal_get
+import dal
 app = Flask(__name__)
 
 
@@ -54,7 +55,8 @@ def device(identifier):
 @app.route('/items', methods=['GET', 'POST'])
 def device_inventory():
     if request.method == 'GET':
-        return jsonify({"items": devices}), 200
+        devices_dict = dal.get()
+        return jsonify({"items": devices_dict}), 200
 
     elif request.method == 'POST':
         try:

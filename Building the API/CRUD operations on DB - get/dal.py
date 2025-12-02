@@ -16,6 +16,7 @@ def get():
     with pull_db() as shelf:
         devices_ = {}
         # TODO: populate the dictionary with data from shelf
+        devices_ = {key: shelf[key] for key in shelf}
     return devices_
 
 
