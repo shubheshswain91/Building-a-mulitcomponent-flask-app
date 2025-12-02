@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de66f1dd-21da-4431-940a-bf365ee36e4a" name="Changes" comment="CRUD operation on DB -get">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/dal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/dal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/tests/api_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/tests/api_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/tests/test_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/tests/test_task.py" afterDir="false" />
+    <list default="true" id="de66f1dd-21da-4431-940a-bf365ee36e4a" name="Changes" comment="CRUD operation on DB - POST">
+      <change beforePath="$PROJECT_DIR$/.idea/.author_contents_storage_db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.author_contents_storage_db-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get device/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get device/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get device/dal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get device/dal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get device/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get device/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get device/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get device/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get device/tests/api_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get device/tests/api_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get device/tests/test_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get device/tests/test_task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -393,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764694952733</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CRUD operation on DB - POST">
+      <option name="closed" value="true" />
+      <created>1764697126404</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764697126404</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -401,6 +409,7 @@
     <MESSAGE value="feat(API): Updating the API" />
     <MESSAGE value="shelve and DAL initialization" />
     <MESSAGE value="CRUD operation on DB -get" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD operation on DB -get" />
+    <MESSAGE value="CRUD operation on DB - POST" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD operation on DB - POST" />
   </component>
 </project>

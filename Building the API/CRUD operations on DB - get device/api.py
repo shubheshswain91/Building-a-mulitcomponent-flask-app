@@ -27,7 +27,7 @@ device_schema = DeviceSchema()
 @app.route('/items/<string:identifier>', methods=['GET', 'PUT', 'DELETE'])
 def device(identifier):
     if request.method == 'GET':
-        device = devices.get(identifier)
+        device = dal.get_device(identifier)
         if not device:
             return jsonify({'message': 'Device not found'}), 404
         return device_schema.dump(device)

@@ -30,10 +30,11 @@ def post(args):
 
 # This function retrieves an item by its identifier and returns it
 def get_device(identifier):
-    with pull_db() as shelf:
+    shelf = pull_db()  # Do NOT use 'with'
+    if identifier not in shelf:
+        return None
+    return shelf[identifier]
 
-        # TODO: return None if the id is not found in the database
-        return "Return the device from the database accessed by the id"
 
 
 # A Dict of Dicts to define initial devices
