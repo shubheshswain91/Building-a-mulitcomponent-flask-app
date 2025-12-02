@@ -21,8 +21,16 @@ class DeviceSchema(Schema):
     #Use validates_schema for custom validation logic
     @validates_schema(pass_original=True)
     def validate_required_fields(self, data, original_data, **kwargs):
-        # TODO: declare a list of required_fields
-        # TODO: check if the method is POST, iterate over required fields, if any of them are absent in the provided data, raise ValidationError with a custom message indicating which filed is missing.
+        # declare a list of required_fields
+        required_fields = ["id", "name", "location", "status"]
+        # check if the method is POST, iterate over required fields, if any of them are absent in the provided data, raise ValidationError with a custom message indicating which filed is missing.
+        if request.method == "POST":
+            missing = []
+            for field in required_fields:
+                if field not in original_data:
+                    missing.append(field)
+            if missing:
+                raise ValidationError("Missing required fields: {}".format(missing))
 
 
 device_schema = DeviceSchema()
@@ -57,14 +65,23 @@ def device(identifier):
 @app.route('/items', methods=['GET', 'POST'])
 def device_inventory():
     if request.method == 'GET':
-        # TODO: return the list of devices in the required format
+        # return the list of devices in the required format
+        return jsonify({'items': devices}), 200
 
     elif request.method == 'POST':
-        # TODO: try to initialize a new device using the method device_schema.load() with json data from the request, return the error message from validation in case it returns an error, with a reponse code 400
+        # try to initialize a new device using the method device_schema.load() with json data from the request, return the error message from validation in case it returns an error, with a reponse code 400
+        # check it the new device id is already present in our data and if so, return an error message and code 400
 
-        # TODO: check it the new device id is already present in our data and if so, return an error message and code 400
+        try:
+            new_device = device_schema.load(request.json)
+        except ValidationError as err:
+            return jsonify(err.messages), 400
+        if new_device['id'] in devices:
+            return jsonify({'message': 'Device with this ID already exists'}), 400
 
-        # TODO: add a new device to devices and return a success message in the required format
+        # add a new device to devices and return a success message in the required format
+        devices[new_device['id']] = new_device
+        return jsonify({'Posted a device': new_device}), 201
 
 
 if __name__ == "__main__":
