@@ -59,12 +59,18 @@ def put_device(identifier, args):
 # This function should delete an item by its identifier.
 # Return None if the identifier is not found.
 def delete_device(identifier):
-    with pull_db() as shelf:
-        # If the key does not exist on the shelf, return None.
-        if not (identifier in shelf):
-            return None
-        # TODO: delete the device from the database
-    return "message"
+    shelf = pull_db()  # Do NOT use 'with', keep shelve open during the request
+
+    # Return None if the device does not exist
+    if identifier not in shelf:
+        return None
+
+    # Delete the device from the shelve
+    del shelf[identifier]
+
+    # Return success message
+    return {"message": f"{identifier} deleted"}
+
 
 
 # A Dict of Dicts to define initial devices

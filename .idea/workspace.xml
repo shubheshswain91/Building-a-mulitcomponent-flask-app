@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de66f1dd-21da-4431-940a-bf365ee36e4a" name="Changes" comment="CRUD operation on DB - get device">
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - put device/dal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - put device/dal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - put device/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - put device/task-info.yaml" afterDir="false" />
+    <list default="true" id="de66f1dd-21da-4431-940a-bf365ee36e4a" name="Changes" comment="CRUD operation on DB - put device">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/dal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/dal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/tests/api_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/tests/api_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/tests/test_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - delete device/tests/test_task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,6 +262,7 @@
     "Edu.Yaml.Migrate": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Unittests in test_task.py.executor": "Run",
+    "Python.api (1).executor": "Run",
     "Python.api.executor": "Run",
     "Python.dal.executor": "Run",
     "Python.main.executor": "Run",
@@ -265,7 +271,29 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.api">
+  <component name="RunManager" selected="Python.api (1)">
+    <configuration name="api (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Building a multicomponent Flask app" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Building the API/CRUD operations on DB - put device" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Building the API/CRUD operations on DB - put device/api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Building a multicomponent Flask app" />
       <option name="ENV_FILES" value="" />
@@ -334,6 +362,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.api (1)" />
         <item itemvalue="Python.api" />
         <item itemvalue="Python.dal" />
         <item itemvalue="Python.main" />
@@ -404,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764697513149</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="CRUD operation on DB - put device">
+      <option name="closed" value="true" />
+      <created>1764698048551</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764698048551</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -414,6 +451,7 @@
     <MESSAGE value="CRUD operation on DB -get" />
     <MESSAGE value="CRUD operation on DB - POST" />
     <MESSAGE value="CRUD operation on DB - get device" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD operation on DB - get device" />
+    <MESSAGE value="CRUD operation on DB - put device" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD operation on DB - put device" />
   </component>
 </project>

@@ -44,10 +44,20 @@ def device(identifier):
 
         return jsonify({"updated device": identifier}), 200
 
+
     elif request.method == 'DELETE':
-        if identifier not in devices:
+
+        # Use DAL to delete the device
+
+        result = dal.delete_device(identifier)
+
+        # Return 404 if the device does not exist
+
+        if result is None:
             return jsonify({'message': 'Device not found'}), 404
-        del devices[identifier]
+
+        # Return the success message from DAL
+
         return jsonify({'message': 'Device deleted'}), 200
 
 
