@@ -59,15 +59,15 @@ def device_inventory():
 
     elif request.method == 'POST':
         try:
-            new_device = device_schema.load(request.json)
+            args = device_schema.load(request.json)
         except ValidationError as err:
-            return jsonify(err.messages), 400
+            return jsonify('ValidationError: ', err.messages), 400
 
-        if new_device["id"] in devices:
-            return jsonify({'message': 'Device with this ID already exists'}), 400
+        new_device = dal.post(args)
 
-        devices[new_device["id"]] = new_device
-        return jsonify({"Posted a device": new_device}), 201
+        if 'error' in new_device:
+            return jsonify({'message': new_device['error']}), 400
+        return jsonify({"Posted a device": device_schema.dump(new_device)}), 201
 
 
 if __name__ == "__main__":

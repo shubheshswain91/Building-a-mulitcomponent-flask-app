@@ -23,11 +23,13 @@ def get():
 
 # This function adds a new element to the datastore of devices
 def post(args):
-    # TODO: create the database shelf object
-        # TODO: Check if the id already exists in the shelf, and if so--returnin an error message
+    with pull_db() as shelf:
+        if args['id'] in shelf:
+            return {'error': 'Device with this ID already exists.'}
 
         # If the ID does not exist, add the new device
-        # TODO: add the data about the new item from args to the shelf
+        shelf[args['id']] = args
+        return shelf[args['id']]
 
 
 # A Dict of Dicts to define initial devices

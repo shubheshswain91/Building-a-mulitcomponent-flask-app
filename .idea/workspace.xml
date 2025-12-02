@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de66f1dd-21da-4431-940a-bf365ee36e4a" name="Changes" comment="shelve and DAL initialization">
+    <list default="true" id="de66f1dd-21da-4431-940a-bf365ee36e4a" name="Changes" comment="CRUD operation on DB -get">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get/dal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get/dal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get/tests/api_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get/tests/api_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get/tests/test_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - get/tests/test_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/dal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/dal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/tests/api_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/tests/api_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/tests/test_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/tests/test_task.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,6 +262,7 @@
     "Edu.Yaml.Migrate": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Unittests in test_task.py.executor": "Run",
+    "Python.api.executor": "Run",
     "Python.dal.executor": "Run",
     "Python.main.executor": "Run",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -269,7 +270,29 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.dal">
+  <component name="RunManager" selected="Python.api">
+    <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Building a multicomponent Flask app" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Building the API/CRUD operations on DB - post" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Building the API/CRUD operations on DB - post/api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Building a multicomponent Flask app" />
       <option name="ENV_FILES" value="" />
@@ -316,6 +339,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.api" />
         <item itemvalue="Python.dal" />
         <item itemvalue="Python.main" />
       </list>
@@ -361,13 +385,22 @@
       <option name="project" value="LOCAL" />
       <updated>1764694230072</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CRUD operation on DB -get">
+      <option name="closed" value="true" />
+      <created>1764694952733</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764694952733</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="feat(API): Updating the API" />
     <MESSAGE value="shelve and DAL initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="shelve and DAL initialization" />
+    <MESSAGE value="CRUD operation on DB -get" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD operation on DB -get" />
   </component>
 </project>
