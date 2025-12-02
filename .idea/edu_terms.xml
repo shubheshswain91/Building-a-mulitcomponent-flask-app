@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TermsProjectSettings">
+    <currentTermsLanguage>en</currentTermsLanguage>
+    <terms>
+      <map>
+        <entry key="en">
+          <value>
+            <map>
+              <entry key="36382528">
+                <value>
+                  <list>
+                    <Term value="DAL" definition="Data Access Layer (DAL) is a part of an application that handles the operations related to the storage of data." />
+                    <Term value="dal" definition="Data Access Layer (DAL) is a part of an application that handles the operations related to the storage of data." />
+                    <Term value="endpoint" definition="An endpoint refers to a specific URL at which a client application can interact with a server." />
+                    <Term value="device inventory" definition="Device inventory refers to maintaining records of devices and their details, often handled programmatically in systems." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="406102220">
+                <value>
+                  <list>
+                    <Term value="json=payload" definition="An argument used to include the payload when forwarding a POST request." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="406736547">
+                <value>
+                  <list>
+                    <Term value="Virtual environments" definition="A virtual environment is a self-contained directory tree that contains a particular version of Python and additional packages, allowing applications to have compatible library versions installed without interfering with each other." />
+                    <Term value="virtual environment" definition="A virtual environment is a self-contained directory tree that contains a particular version of Python and additional packages, allowing applications to have compatible library versions installed without interfering with each other." />
+                    <Term value="virtual environments" definition="A virtual environment is a self-contained directory tree that contains a particular version of Python and additional packages, allowing applications to have compatible library versions installed without interfering with each other." />
+                    <Term value="pip" definition="pip is a program used to install, upgrade, and remove Python packages, often from the Python Package Index." />
+                    <Term value="requirements.txt" definition="The requirements.txt file contains a list of Python packages to install, usually created with `pip freeze`, and is often committed to version control." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="428497110">
+                <value>
+                  <list>
+                    <Term value="127.0.0.1" definition="127.0.0.1 is the loopback address in IPv4, used to establish a connection to the same machine or computer being used." />
+                    <Term value="Docker Compose service" definition="Docker Compose service is a way to define and run multi-container Docker applications, specifying configurations in a YAML file." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="967591409">
+                <value>
+                  <list>
+                    <Term value="GET device endpoint" definition="A part of an API that is updated to call the 'get_device' method, which handles retrieving device data." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1030521970">
+                <value>
+                  <list>
+                    <Term value="Flask API" definition="A micro web framework in Python used to build APIs and web applications." />
+                    <Term value="CRUD operations" definition="CRUD stands for Create, Read, Update, Delete - the basic operations for managing data in a datastore or database." />
+                    <Term value="device_schema" definition="A Marshmallow schema used to validate the structure and content of data sent in requests and responses to ensure consistency and correctness in API operations." />
+                    <Term value="HTTP methods" definition="Standard HTTP methods, such as GET, PUT, and DELETE, represent actions to perform on a resource in an API." />
+                    <Term value="ValidationError" definition="An error thrown when the data provided fails schema validation, indicating the input data does not meet the required format or rules." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1150149394">
+                <value>
+                  <list>
+                    <Term value="Docker run configurations" definition="A Docker run configuration in an IDE allows describing how to run an application using a Docker container, specifying parameters like image tag, container name, and port bindings." />
+                    <Term value="Docker run configuration" definition="A Docker run configuration in an IDE allows describing how to run an application using a Docker container, specifying parameters like image tag, container name, and port bindings." />
+                    <Term value="Bind ports" definition="Binding ports connects a container's port to the host machine's port, enabling access to the application running inside the container." />
+                    <Term value="Docker image" definition="A Docker image contains application code, libraries, tools, dependencies, and other files needed to run an application in a container." />
+                    <Term value="Stop Container" definition="The 'Stop Container' option in the Services panel allows stopping a running Docker container in the IDE." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1211454319">
+                <value>
+                  <list>
+                    <Term value="GET request" definition="A GET request is an HTTP method used to request data from a specified resource, such as a URL." />
+                    <Term value="POST request" definition="A POST request is an HTTP method used to send data to a server, such as a request body, to create or update a resource." />
+                    <Term value="HTTPie" definition="HTTPie is an open-source tool used for testing APIs, allowing users to send different types of HTTP requests and inspect the responses easily." />
+                    <Term value="httpie" definition="HTTPie is an open-source tool used for testing APIs, allowing users to send different types of HTTP requests and inspect the responses easily." />
+                    <Term value="Flask" definition="Flask is a lightweight Python web framework used to create web applications and APIs." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1251056313">
+                <value>
+                  <list>
+                    <Term value="Shelve" definition="The Python 'shelve' module provides a flexible database that implements persistent storage for arbitrary Python objects, enabling Create, Retrieve, Update, and Delete (CRUD) operations on data elements accessed by keys." />
+                    <Term value="shelve" definition="The Python 'shelve' module provides a flexible database that implements persistent storage for arbitrary Python objects, enabling Create, Retrieve, Update, and Delete (CRUD) operations on data elements accessed by keys." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1326141510">
+                <value>
+                  <list>
+                    <Term value="Docker container" definition="A Docker container provides code isolation, independence, and portability. It can be used to deploy applications into production and comes with fully prescribed dependencies stored in the container's image." />
+                    <Term value="Docker Containers" definition="A Docker container provides code isolation, independence, and portability. It can be used to deploy applications into production and comes with fully prescribed dependencies stored in the container's image." />
+                    <Term value="Docker containers" definition="A Docker container provides code isolation, independence, and portability. It can be used to deploy applications into production and comes with fully prescribed dependencies stored in the container's image." />
+                    <Term value="Dockerfile" definition="A Dockerfile is a set of instructions for building a container image, which serves as a blueprint for the container to run." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1335436148">
+                <value>
+                  <list>
+                    <Term value="delete_device" definition="A function in the Data Access Layer (DAL) to remove a specific device from the database by its ID, returning a success message or None if the ID is not found." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1350057604">
+                <value>
+                  <list>
+                    <Term value="API gateway" definition="An API Gateway acts as a router for client requests, enabling a single interface to access microservices and simplifying communication by requiring the client to target a single host and port." />
+                    <Term value="authentication" definition="Authentication is the process of confirming that requests are authenticated, usually handled by an external system, allowing the gateway to route requests to the correct microservices." />
+                    <Term value="Authentication" definition="Authentication is the process of confirming that requests are authenticated, usually handled by an external system, allowing the gateway to route requests to the correct microservices." />
+                    <Term value="authorization" definition="Authorization involves determining whether requests have permissions to access certain resources, which can be managed through middleware or additional microservices." />
+                    <Term value="Flask" definition="Flask is a Python micro web framework used to create web applications, such as the gateway application in the example." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1451529308">
+                <value>
+                  <list>
+                    <Term value="CRUD operations" definition="CRUD stands for Create, Read, Update, and Delete. They are the basic operations performed on a database." />
+                    <Term value="API gateway" definition="An API gateway is a backend service that acts as an entry point and routes client requests to the appropriate microservice." />
+                    <Term value="Docker" definition="Docker is a platform for developing, shipping, and running applications in lightweight, portable containers." />
+                    <Term value="HTTPie" definition="HTTPie is a command-line HTTP client that allows testing HTTP requests in a simple and user-friendly way." />
+                    <Term value="Flask" definition="Flask is a lightweight web application framework in Python for building web servers and APIs." />
+                    <Term value="REST APIs" definition="A REST API is an application programming interface that adheres to the principles of Representational State Transfer for interaction between systems." />
+                    <Term value="Flask Marshmallow" definition="Flask Marshmallow is a Flask extension that integrates the Marshmallow library for object serialization and deserialization." />
+                    <Term value="Python shelve" definition="Python shelve is a module that provides a simple persistence mechanism for Python objects, allowing them to be stored in a file and retrieved later." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1473089066">
+                <value>
+                  <list>
+                    <Term value="@validates_schema" definition="A decorator in Marshmallow used to define methods that perform additional schema-level validations beyond field-level validators." />
+                    <Term value="ValidationError" definition="An error raised when validation fails, providing an appropriate error response to the client." />
+                    <Term value="validate_required_fields" definition="A method defined using the @validates_schema decorator to ensure certain required fields ('id', 'name', 'location', 'status') are included in an API POST request." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1526265653">
+                <value>
+                  <list>
+                    <Term value="Flask" definition="A micro web framework written in Python that aims to keep the core simple but extensible and supports extensions to add additional functionality." />
+                    <Term value="API" definition="An application programming interface is a connection between computers or between computer programs that offers a service to other pieces of software." />
+                    <Term value="APIs" definition="An application programming interface is a connection between computers or between computer programs that offers a service to other pieces of software." />
+                    <Term value="REST API" definition="An API that follows the Representational State Transfer architectural style, using HTTP requests to fetch or send information to a web service in a simple and flexible way." />
+                    <Term value="REST APIs" definition="An API that follows the Representational State Transfer architectural style, using HTTP requests to fetch or send information to a web service in a simple and flexible way." />
+                    <Term value="Marshmallow" definition="A library for object serialization and deserialization in Flask applications that provides data validation and transformation, ensuring the integrity and format of API input and output." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1539139409">
+                <value>
+                  <list>
+                    <Term value="CRUD" definition="CRUD stands for Create, Read/Retrieve, Update, and Delete, and these are the four basic operations that can be performed on persistence storage (database)." />
+                    <Term value="POST" definition="POST is an HTTP method used to create a new resource or device." />
+                    <Term value="GET" definition="GET is an HTTP method used to read or retrieve an existing resource or device." />
+                    <Term value="get" definition="GET is an HTTP method used to read or retrieve an existing resource or device." />
+                    <Term value="PUT" definition="PUT is an HTTP method used to update an existing resource or device." />
+                    <Term value="Delete" definition="DELETE is an HTTP method used to delete a resource or device." />
+                    <Term value="DELETE" definition="DELETE is an HTTP method used to delete a resource or device." />
+                    <Term value="Deletes" definition="DELETE is an HTTP method used to delete a resource or device." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1666334067">
+                <value>
+                  <list>
+                    <Term value="Docker-compose" definition="Docker-compose is a tool that allows us to define the deployment of multiple containers, and has the added benefit of making each container targetable using the container name." />
+                    <Term value="docker-compose" definition="Docker-compose is a tool that allows us to define the deployment of multiple containers, and has the added benefit of making each container targetable using the container name." />
+                    <Term value="docker-compose.yaml" definition="The docker-compose.yaml file is used to define the services, configurations, and networking for Docker-compose deployments." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="1793720790">
+                <value>
+                  <list>
+                    <Term value="microservices" definition="Microservices are an architectural and organizational approach to software development where software is composed of small, independent services." />
+                    <Term value="Microservices" definition="Microservices are an architectural and organizational approach to software development where software is composed of small, independent services." />
+                    <Term value="microservice" definition="Microservices are an architectural and organizational approach to software development where software is composed of small, independent services." />
+                    <Term value="monolithic architectures" definition="Monolithic architecture refers to a software design where all processes are tightly coupled and run as a single service, making it difficult to scale and implement new features in large code bases." />
+                    <Term value="API gateway" definition="An API gateway is a backend component that acts as a router and authorizer of client requests in a system with multiple backend components." />
+                    <Term value="CRUD operations" definition="CRUD operations are basic database operations: Create, Read, Update, and Delete, commonly performed on persistent data storage." />
+                    <Term value="RESTful interface" definition="A RESTful interface is a way of designing APIs that adhere to the principles of REST (Representational State Transfer) architecture." />
+                    <Term value="UML" definition="UML (Unified Modeling Language) is a standardized way to visualize the design of a system and the links between its components." />
+                    <Term value="sequence diagrams" definition="A sequence diagram describes how different parts of a system interact over a sequence of steps, often used to visualize how users and applications communicate." />
+                    <Term value="Sequence diagram" definition="A sequence diagram describes how different parts of a system interact over a sequence of steps, often used to visualize how users and applications communicate." />
+                    <Term value="sequence diagram" definition="A sequence diagram describes how different parts of a system interact over a sequence of steps, often used to visualize how users and applications communicate." />
+                  </list>
+                </value>
+              </entry>
+              <entry key="2133742639">
+                <value>
+                  <list>
+                    <Term value="DAL" definition="Data Access Layer (DAL) is a layer in software architecture responsible for accessing and managing the data in a database." />
+                    <Term value="dal" definition="Data Access Layer (DAL) is a layer in software architecture responsible for accessing and managing the data in a database." />
+                    <Term value="GET device endpoint" definition="A GET device endpoint in an API is used to retrieve data about a device from the server." />
+                    <Term value="PUT device endpoint" definition="A PUT device endpoint in an API is used to update an existing device's information on the server." />
+                  </list>
+                </value>
+              </entry>
+            </map>
+          </value>
+        </entry>
+      </map>
+    </terms>
+    <termsVersions>
+      <map>
+        <entry key="en" value="119" />
+      </map>
+    </termsVersions>
+  </component>
+</project>
