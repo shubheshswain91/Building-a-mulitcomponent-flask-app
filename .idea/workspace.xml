@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de66f1dd-21da-4431-940a-bf365ee36e4a" name="Changes" comment="CRUD operation on DB - delete device">
+    <list default="true" id="de66f1dd-21da-4431-940a-bf365ee36e4a" name="Changes" comment="Dockerfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deploy API on Docker/Docker Intro/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Deploy API on Docker/Docker Intro/task-info.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deploy API on Docker/Dockerfile/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Deploy API on Docker/Dockerfile/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deploy API on Docker/Dockerfile/runConfigurations/Deploy_on_Docker_Dockerfile_Test.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Deploy API on Docker/Dockerfile/runConfigurations/Deploy_on_Docker_Dockerfile_Test.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Deploy API on Docker/Dockerfile/tests/test_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deploy API on Docker/Dockerfile/tests/test_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Define routes/gateway/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Define routes/gateway/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Define routes/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Define routes/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Define routes/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Define routes/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Define routes/tests/test_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Define routes/tests/test_task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Building the Gateway Application/Introduction/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Building the Gateway Application/Introduction/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deploy API on Docker/API Testing/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Deploy API on Docker/API Testing/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deploy API on Docker/Docker run configuration setup/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Deploy API on Docker/Docker run configuration setup/task-info.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,6 +266,7 @@
     "Python tests.Deploy_on_Docker_Dockerfile_Test.executor": "Run",
     "Python tests.Unittests in test_task.py.executor": "Run",
     "Python.api (1).executor": "Run",
+    "Python.api (2).executor": "Run",
     "Python.api.executor": "Run",
     "Python.dal.executor": "Run",
     "Python.main.executor": "Run",
@@ -272,7 +276,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.api (1)">
+  <component name="RunManager" selected="Python.api (2)">
     <configuration name="api (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Building a multicomponent Flask app" />
       <option name="ENV_FILES" value="" />
@@ -287,6 +291,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Building the API/CRUD operations on DB - put device/api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Building a multicomponent Flask app" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Deploy API on Docker/API Testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Deploy API on Docker/API Testing/api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,8 +387,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unnamed" type="docker-deploy" factoryName="dockerfile" server-name="MyRunConfig">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="flask-app-invsys" />
+          <option name="containerName" value="" />
+          <option name="sourceFilePath" value="Deploy API on Docker/Docker run configuration setup/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Unnamed" />
+      <item itemvalue="Docker.Composing_system_docker-compose_Build" />
+      <item itemvalue="Docker.Delete_Device_Build" />
+      <item itemvalue="Docker.Deploy_on_Docker_Dockerfile_Build" />
+      <item itemvalue="Docker.Gateway_add_Dockerfile_Build" />
+      <item itemvalue="Docker.Get_Devices_Build" />
+      <item itemvalue="Docker.Post_Device_Build" />
+      <item itemvalue="Docker.Put_Device_Build" />
+      <item itemvalue="Python.api (2)" />
+      <item itemvalue="Python.api" />
+      <item itemvalue="Python.api (1)" />
+      <item itemvalue="Python.dal" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python tests.Composing_system_docker-compose_Test" />
+      <item itemvalue="Python tests.Delete_Device_Test" />
+      <item itemvalue="Python tests.Deploy_on_Docker_Dockerfile_Test" />
+      <item itemvalue="Python tests.Gateway_add_Dockerfile_Test" />
+      <item itemvalue="Python tests.Get_devices_Test" />
+      <item itemvalue="Python tests.Post_Device_Test" />
+      <item itemvalue="Python tests.Put_Device_Test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.api (2)" />
         <item itemvalue="Python.api (1)" />
         <item itemvalue="Python.api" />
         <item itemvalue="Python.dal" />
@@ -450,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764698241546</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Dockerfile">
+      <option name="closed" value="true" />
+      <created>1764699011033</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764699011033</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -462,6 +529,7 @@
     <MESSAGE value="CRUD operation on DB - get device" />
     <MESSAGE value="CRUD operation on DB - put device" />
     <MESSAGE value="CRUD operation on DB - delete device" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD operation on DB - delete device" />
+    <MESSAGE value="Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dockerfile" />
   </component>
 </project>

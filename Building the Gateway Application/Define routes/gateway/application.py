@@ -10,22 +10,25 @@ def index():
 
 
 @app.route('/items', methods=['GET'])
+@app.route('/items/<string:item_id>', methods=['GET'])
 # TODO: add a route for GET with item id
 def get_devicess(item_id=None):
     return 'Hello from GET'
 
 
-# TODO: add a route for DELETE
+
+@app.route('/items/<string:item_id>', methods=['DELETE'])
 def delete_device(item_id):
     return 'Hello from DELETE'
 
+@app.route('/items', methods=['POST'])
 
-# TODO: add a route for POST
 def post_device():
     return 'Hello from POST'
 
 
-# TODO: add a route for PUT
+
+@app.route('/items/<string:item_id>', methods=['PUT'])
 def put_device(item_id):
     return 'Hello from PUT'
 
